@@ -76,7 +76,7 @@ context.canvas.addEventListener('click', function (event) {
     y: mouseY
   });
 
-  //
+  // 총 포인트 갯수만큼 직선을 이어 그렸다면, 게임 종료 대화 상자를 보여주고, 완성된 비행기 이미지를 캔버스에 그린다.
   if (arrayCoordinates.length === totalPoints) {
     alert('Well Done!');
     drawFinishImage();
